@@ -1,0 +1,12 @@
+
+.all-scores {
+    padding-bottom: 2rem;
+}
+
+.score-card {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    background-color: #00B4D8;
+    border-radius: 15px 15px 15px 15px;
+}

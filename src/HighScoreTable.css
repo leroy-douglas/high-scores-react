@@ -1,0 +1,38 @@
+
+.player {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #023E8A;
+}
+
+.score-heading {
+    background-color: #ADE8F4;
+    border-radius: 15px 15px 0 0;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+}
+.score-heading .name, .score-heading .score {
+    width: 20%;
+    border-radius: 5px 5px 5px 5px;
+    color: #00B4D8;
+    margin-left: auto;  
+    text-align: center;
+}
+
+.score-table {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #023E8A;
+}
+
+.name, .score {
+    text-align: center;
+    width: 40%;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,11 @@
+.player .name, .player .score{
+    border-radius: 5px 5px 5px 5px;
+    background-color: #00B4D8;
+    color: #023E8A;
+}
+
+.player p {
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+
