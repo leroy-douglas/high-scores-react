@@ -10,19 +10,18 @@ const compare = ( name1, name2 ) => {
     return -1
 };
 
-const HighScores = ({ allHighScores }) => {     
+const HighScores = ({ allHighScores, orderState }) => {     
     return (
         <div className="all-scores">
             {
                 allHighScores.sort(compare).map(country => {
-                    //console.log("HighScores", country.name)
                     let hsHeaderKey=`${country.name}HdrKey`;
                     let hsTableKey = `${country.name}TblKey`;
                     return (
-                        <div key={country.name} className="score-card">
-                            <HighScoreHeader key={hsHeaderKey} countryName={country.name} />
-                            <HighScoreTable key={hsTableKey} scores={ country.scores } />
-                        </div>
+                            <div key={country.name} className="score-card">
+                                <HighScoreHeader key={hsHeaderKey} countryName={country.name} />
+                                <HighScoreTable key={hsTableKey} scores={ country.scores } orderState={orderState}/>
+                            </div>
                     );
                 })
             }

@@ -1,14 +1,14 @@
 import React from 'react';
-import allCountryScores from "./Scores";
+import AllHighScores from './AllHighScores';
 import './App.css';
-import { Header }  from "./Headers";
-import HighScores from "./HighScores";
+
+import HighScoresByCountry from "./HighScoresByCountry";
 
 function App() {
   return (
     <div id="high-scores-container" className="App">
-      <Header />
-      <HighScores allHighScores={allCountryScores} />
+      <AllHighScores />
+      <HighScoresByCountry />
     </div>
   );
 }

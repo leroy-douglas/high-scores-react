@@ -3,14 +3,7 @@ body{
   padding-bottom: 1rem; 
 }
 
-h1{
-  border-radius: 15px 15px 15px 15px;
-  background-color:   #023E8A;
-  color: #00B4D8;
-  width: 80%;
-  margin: 1rem auto;
-  padding: 1rem 0;
-}
+
 
 .App {
   text-align: center;

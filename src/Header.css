@@ -1,0 +1,21 @@
+h2{
+  border-radius: 15px 15px 15px 15px;
+  background-color:   #023E8A;
+  color: #00B4D8;
+  width: 80%;
+  margin: 1rem auto;
+  padding: 1rem 0;
+}
+
+.all-high-scores-container h2{
+  margin-bottom: 0px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+
+#reorder {
+    height: 50px;
+    background-color: #00B4D8;
+    border-radius: 10px;
+    border: none
+}
